@@ -56,3 +56,6 @@
     --vp-c-indigo-3: #42a5f5;
   }
   
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }

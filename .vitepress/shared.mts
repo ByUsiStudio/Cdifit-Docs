@@ -14,7 +14,7 @@ export default defineConfig({
       dark: "/cdifit_dark.png",
     },
     socialLinks: [
-      { icon: "/cdifit.png", link: "https://www.cdifit.cn" },
+      { icon: "github", link: "https://github.com/byusi-studio/cdifit-docs" },
     ],
     search: {
       provider: "algolia",

@@ -8,15 +8,42 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "https://docs.cdifit.com/" },
+      { text: "Cdifit", link: "https://www.cdifit.cn" },
     ],
 
     sidebar: [
       {
         text: "起步",
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: "欢迎", link: "/zh/" },
+          { text: "开发者接口", link: "/zh/api/" }
         ],
+      },
+      {
+        text: "开发者接口",
+        collapsed: false,
+        items: [
+          {
+            text: "OAuth",
+            collapsed: true,
+            items: [
+            ],
+            link: "/zh/api/oauth/"
+          },
+          {
+            text: "用户",
+            collapsed: true,
+            items: [
+              {
+                text: "用户信息获取",
+                link: "/zh/api/user/userinfo.md",
+              }
+            ],
+            link: "/zh/api/user/"
+          },
+        ],
+        link: "/zh/api/",
       },
     ],
 
