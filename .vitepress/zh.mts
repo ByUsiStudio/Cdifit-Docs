@@ -49,7 +49,7 @@ export default defineConfig({
               },
               {
                 text: "用户的分享列表获取",
-                link: "/zh/api/user/list_user\'s_share_links.md"
+                link: "/zh/api/user/get_user_sharing_list.md"
               }
             ],
             link: "/zh/api/user/"
