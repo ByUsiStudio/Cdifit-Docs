@@ -11,8 +11,8 @@ Authorization: Bearer <AccessToken>
 |----|----|----|----|
 | 参数名 | 类型 | 值 | 是否为必要参数 |
 | page_size | 整数 | `>= 10` `<= 100` 页码，可以自定义 | 是 |
-| order_by | enum<string> | views ==> **View count.**<br>downloads ==> **Download counts.**<br>price ==> **Price in points.**<br>remain_downloads ==> **Remain download count for auto-expired shares.**<br>id ==> **Date of creation.** | 否 |
-| order_direction | enum<string> | asc ==> **Ascending (a-z).**<br>desc ==> **Descending (z-a).** | 否 |
+| order_by | enum\<string\> | views ==> **View count.**<br>downloads ==> **Download counts.**<br>price ==> **Price in points.**<br>remain_downloads ==> **Remain download count for auto-expired shares.**<br>id ==> **Date of creation.** | 否 |
+| order_direction | enum\<string\> | asc ==> **Ascending (a-z).**<br>desc ==> **Descending (z-a).** | 否 |
 | next_page_token | string | 用于请求下一页的令牌。空值表示请求第一页。 | 否 |
 |----|----|----|----|
 
