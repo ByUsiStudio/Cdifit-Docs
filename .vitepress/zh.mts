@@ -38,6 +38,18 @@ export default defineConfig({
               {
                 text: "用户信息获取",
                 link: "/zh/api/user/userinfo.md",
+              },
+              {
+                text: "获取用户存储空间",
+                link: "/zh/api/user/get_storage_capacity.md",
+              },
+              {
+                text: "获取用户头像",
+                link: "/zh/api/user/get_profile_picture.md",
+              },
+              {
+                text: "用户的分享列表获取",
+                link: "/zh/api/user/list_user\'s_share_links.md"
               }
             ],
             link: "/zh/api/user/"
