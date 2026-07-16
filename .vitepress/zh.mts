@@ -25,34 +25,69 @@ export default defineConfig({
         collapsed: false,
         items: [
           {
-            text: "OAuth",
+            text: "站点信息",
             collapsed: true,
             items: [
+              { text: "站点信息", link: "/zh/api/site/index.md" }
             ],
-            link: "/zh/api/oauth/"
+            link: "/zh/api/site/"
+          },
+          {
+            text: "会话认证",
+            collapsed: true,
+            items: [
+              { text: "密码登录", link: "/zh/api/session/password_sign_in.md" },
+              { text: "完成 2FA 登录", link: "/zh/api/session/finish_sign_in_with_2fa.md" },
+              { text: "刷新令牌", link: "/zh/api/session/refresh_token.md" },
+              { text: "退出登录", link: "/zh/api/session/sign_out.md" }
+            ],
+            link: "/zh/api/session/"
           },
           {
             text: "用户",
             collapsed: true,
             items: [
-              {
-                text: "用户信息获取",
-                link: "/zh/api/user/userinfo.md",
-              },
-              {
-                text: "获取用户存储空间",
-                link: "/zh/api/user/get_storage_capacity.md",
-              },
-              {
-                text: "获取用户头像",
-                link: "/zh/api/user/get_profile_picture.md",
-              },
-              {
-                text: "用户的分享列表获取",
-                link: "/zh/api/user/get_user_sharing_list.md"
-              }
+              { text: "用户信息获取", link: "/zh/api/user/userinfo.md" },
+              { text: "获取用户存储空间", link: "/zh/api/user/get_storage_capacity.md" },
+              { text: "获取用户头像", link: "/zh/api/user/get_profile_picture.md" },
+              { text: "用户的分享列表获取", link: "/zh/api/user/get_user_sharing_list.md" }
             ],
             link: "/zh/api/user/"
+          },
+          {
+            text: "文件管理",
+            collapsed: true,
+            items: [
+              { text: "文件管理概述", link: "/zh/api/file/index.md" },
+              { text: "列出文件", link: "/zh/api/file/list_files.md" },
+              { text: "获取文件信息", link: "/zh/api/file/get_file_info.md" },
+              { text: "创建文件", link: "/zh/api/file/create_file.md" },
+              { text: "创建文件夹", link: "/zh/api/file/create_folder.md" },
+              { text: "重命名文件", link: "/zh/api/file/rename_file.md" },
+              { text: "删除文件", link: "/zh/api/file/delete_file.md" },
+              { text: "移动或复制文件", link: "/zh/api/file/move_or_copy_files.md" },
+              { text: "创建下载链接", link: "/zh/api/file/create_download_url.md" }
+            ],
+            link: "/zh/api/file/"
+          },
+          {
+            text: "分享管理",
+            collapsed: true,
+            items: [
+              { text: "分享管理概述", link: "/zh/api/share/index.md" },
+              { text: "创建分享链接", link: "/zh/api/share/create_share_link.md" },
+              { text: "获取分享链接信息", link: "/zh/api/share/get_share_link_info.md" },
+              { text: "列出我的分享链接", link: "/zh/api/share/list_my_share_links.md" },
+              { text: "编辑分享链接", link: "/zh/api/share/edit_share_link.md" },
+              { text: "删除分享链接", link: "/zh/api/share/delete_share_link.md" }
+            ],
+            link: "/zh/api/share/"
+          },
+          {
+            text: "OAuth",
+            collapsed: true,
+            items: [],
+            link: "/zh/api/oauth/"
           },
         ],
         link: "/zh/api/",

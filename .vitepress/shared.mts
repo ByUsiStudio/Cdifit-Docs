@@ -10,8 +10,8 @@ export default defineConfig({
   themeConfig: {
     siteTitle: false,
     logo: {
-      light: "/cdifit.png",
-      dark: "/cdifit_dark.png",
+      light: "https://www.cdifit.cn/cdifit.svg",
+      dark: "https://www.cdifit.cn/cdifit.svg",
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/byusistudio/cdifit-docs" },
