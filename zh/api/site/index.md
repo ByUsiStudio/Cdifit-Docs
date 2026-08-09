@@ -7,7 +7,7 @@
 检查服务状态和版本。
 
 ```http
-GET /api/v4/ping
+GET /api/v4/site/ping
 ```
 
 响应：
@@ -26,7 +26,7 @@ GET /api/v4/ping
 ## 获取站点配置
 
 ```http
-GET /api/v4/site/settings
+GET /api/v4/site/config/settings
 ```
 
 ## 获取验证码
