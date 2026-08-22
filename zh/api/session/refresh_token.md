@@ -5,7 +5,7 @@
 ## 请求
 
 ```http
-PUT /api/v4/session/token
+PUT /api/v4/session/token/refresh
 Authorization: Bearer <RefreshToken>
 Content-Type: application/json
 ```
